@@ -1,0 +1,6 @@
+runtime "ruby"
+exec "hipchat_alert_hook.rb"
+name 'HipchatAlertHook'
+
+gem 'hipchat'
+gem 'httparty'
